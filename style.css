@@ -4,15 +4,38 @@ html {
 }
 body {
     margin-bottom: 80px;
+    font-family: 'Raleway', sans-serif;
 }
 .navbar, .navbar-brand, .nav-link, .card-img-overlay {
     padding: 0;
     margin: 0;
 }
 
+.navbar {
+    background: rgba(135, 206, 250, 0.2);
+}
+
+.navbar-brand {
+    color: #ffffff;
+    border: rgb(103, 194, 250) solid 2px; 
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    padding: 0 5px;
+}
+
+.nav {
+    margin-right: 5vw;
+}
+
 .brand-container {
     padding: 10px;
-    background-color: lightskyblue;
+    margin-left: 5vw;
+    background-color:lightskyblue;
+}
+
+.nav-link {
+    color: rgb(103, 194, 250);
+    font-weight: bold;
 }
 
 .nav-item {
@@ -21,8 +44,7 @@ body {
 
 .container {
     margin-top: 20px;
-    /* margin-bottom: 20px; */
-    width: 75%;
+    width: 60%;
 }
 
 .card-img-overlay {
@@ -41,12 +63,18 @@ footer {
     height: 60px;
     line-height: 60px;
     background-color: lightskyblue;
+    color: #ffffff;
 }
 
 @media screen and (max-width: 575px) {
     .brand-container {
         width: 100%;
+        margin-left: 0;
         text-align: center;
+    }
+
+    .nav {
+        margin-right: 0;
     }
 
     .container {
