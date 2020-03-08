@@ -13,6 +13,7 @@
 
 .container {
     margin-top: 20px;
+    margin-bottom: 20px;
     width: 75%;
 }
 
@@ -32,6 +33,6 @@
     }
 
     .container {
-        width: 100%;
+        width: 95%;
     }
 }
