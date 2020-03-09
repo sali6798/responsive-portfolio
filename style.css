@@ -1,3 +1,9 @@
+/* styling resets */
+h2, h5, p, .navbar, .navbar-brand, .nav-link, .card-img-overlay  {
+    padding: 0;
+    margin: 0;
+}
+
 html {
     position: relative;
     min-height: 100%;
@@ -6,8 +12,13 @@ html {
 body {
     margin-bottom: 80px;
     font-family: 'Raleway', sans-serif;
-    background-color: rgba(92, 160, 134, 0.1);
     background-image: url("https://lh3.googleusercontent.com/proxy/PmFokcYfcJnyapbRrx4N4iCR4FPd9BYsfx6StuzUHmm_d06JkioYGAa00hYKmjOo8vcyAtpM8vc0jIscUPD_pnGaXKSCW4HISof1taHVMG_5hG7Vp5oF-0AD");
+    background-color: rgba(92, 160, 134, 0.1); /* background color if image fails */
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
 }
 
 footer {
@@ -18,11 +29,6 @@ footer {
     line-height: 60px;
     background-color: lightskyblue;
     color: #ffffff;
-}
-
-.navbar, .navbar-brand, .nav-link, .card-img-overlay, h2, h5 {
-    padding: 0;
-    margin: 0;
 }
 
 .navbar {
@@ -46,11 +52,6 @@ footer {
     padding: 0 5px;
 }
 
-h2 {
-    font-size: 28px;
-    font-weight: bold;
-}
-
 .nav {
     margin-right: 5vw;
 }
@@ -69,6 +70,7 @@ h2 {
     padding: 15px;
     width: 60%;
     background: #ffffff;
+    /* puts shadow on all sides of the container */
     box-shadow: 
         6px 6px 6px -6px lightskyblue,
         -4px -4px 6px -6px lightskyblue;
