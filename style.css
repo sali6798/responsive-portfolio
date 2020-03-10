@@ -10,9 +10,9 @@ html {
 }
 
 body {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     font-family: 'Raleway', sans-serif;
-    background-image: url("https://lh3.googleusercontent.com/proxy/PmFokcYfcJnyapbRrx4N4iCR4FPd9BYsfx6StuzUHmm_d06JkioYGAa00hYKmjOo8vcyAtpM8vc0jIscUPD_pnGaXKSCW4HISof1taHVMG_5hG7Vp5oF-0AD");
+    background-image: url("https://i.pinimg.com/736x/08/08/fb/0808fb305aa8d90cb6379305062089ee.jpg");
     background-color: rgba(92, 160, 134, 0.1); /* background color if image fails */
 }
 
@@ -32,7 +32,7 @@ footer {
 }
 
 .navbar {
-    background: rgba(135, 206, 250, 0.7);
+    background: rgba(135, 206, 250, 0.8);
     box-shadow: 0 6px 6px -6px lightskyblue;
 }
 
@@ -68,7 +68,7 @@ footer {
 .container {
     margin-top: 40px;
     padding: 15px;
-    width: 60%;
+    width: 70%;
     background: #ffffff;
     /* puts shadow on all sides of the container */
     box-shadow: 
@@ -88,6 +88,14 @@ footer {
     padding: 5px 0;
     background-color: lightskyblue;
     color: black;
+}
+
+.profile-img-container {
+    max-width: 200px;
+}
+
+#about-container {
+    overflow: auto;
 }
 
 @media screen and (max-width: 575px) {
