@@ -102,6 +102,7 @@ footer {
     overflow: auto;
 }
 
+/* On small screens and less */
 @media screen and (max-width: 575px) {
     .brand-container {
         width: 100%;
