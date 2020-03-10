@@ -72,8 +72,8 @@ footer {
     background: #ffffff;
     /* puts shadow on all sides of the container */
     box-shadow: 
-        6px 6px 6px -6px lightskyblue,
-        -4px -4px 6px -6px lightskyblue;
+        8px 6px 6px -2px rgb(49, 119, 163),
+        -4px -3px 6px -2px rgb(49, 119, 163);
 }
 
 .btn {
