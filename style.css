@@ -98,11 +98,19 @@ footer {
     max-width: 200px;
 }
 
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.fas, .fab {
+    padding-right: 10px;
+}
+
 #about-container {
     overflow: auto;
 }
 
-/* On small screens and less */
+/* On extra small screens and less */
 @media screen and (max-width: 575px) {
     .brand-container {
         width: 100%;

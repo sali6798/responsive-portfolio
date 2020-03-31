@@ -7,7 +7,6 @@
     <title>Contact</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -38,25 +37,36 @@
     <div class="container">
         <h2>Contact</h2>
         <hr>
-        <form>
-            <!-- Required name and email user input -->
-            <div class="form-group">
-                <label for="nameInput">Name</label>
-                <input type="text" class="form-control" id="nameInput" aria-describedby="nameHelp" required>
+        <div class="row">
+            <div class="col-md-6 col-lg-5 contact-info">
+                <p><i class="fas fa-phone-alt"></i>(206) 799-9002</p>
+                <p><i class="fas fa-envelope"></i>shaidee@alingcastre.net</p>
+                <p><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/shaidee-alingcastre" target="_blank">Shaidee Alingcastre</a></p>
+                <p><i class="fab fa-github"></i><a href="https://github.com/sali6798" target="_blank">@sali6798</a></p>
             </div>
-            <div class="form-group">
-                <label for="emailInput">Email</label>
-                <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" required>
+            <div class="col-md-6 col-lg-7">
+                <form>
+                    <!-- Required name and email user input -->
+                    <div class="form-group">
+                        <label for="nameInput">Name</label>
+                        <input type="text" class="form-control" id="nameInput" aria-describedby="nameHelp" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="emailInput">Email</label>
+                        <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" required>
+                    </div>
+                    <!-- Text box for users are required to write in -->
+                    <div class="form-group">
+                        <label for="textArea">Message</label>
+                        <textarea class="form-control" id="textArea" rows="5" required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn form-group">Submit</button>
+                    </div>
+                </form>
             </div>
-            <!-- Text box for users are required to write in -->
-            <div class="form-group">
-                <label for="textArea">Message</label>
-                <textarea class="form-control" id="textArea" rows="5" required></textarea>
-            </div>
-            <div class="text-center">
-                <button type="submit" class="btn form-group">Submit</button>
-            </div>
-        </form>
+        </div>
+        
 
     </div>
 
@@ -72,6 +82,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3fd925d521.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
