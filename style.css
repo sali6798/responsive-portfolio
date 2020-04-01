@@ -82,16 +82,42 @@ footer {
 }
 
 .card {
-    max-width: 300px;
+    max-width: 350px;
+}
+
+.card-img {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 .card-img-overlay {
     top: unset;
-    bottom: 10px;
+    bottom: 110px;
     width: 100%;
     padding: 5px 0;
-    background-color: lightskyblue;
+    background-color: rgb(103, 194, 250);
     color: black;
+}
+
+.card > .list-group:last-child .list-group-item:last-child {
+    border-radius: 0;
+}
+
+.list-group a:hover {
+    text-decoration: none;
+}
+
+.list-group-item {
+    padding: 10px;
+}
+
+.list-group-item:hover {
+    background-color: rgb(216, 215, 215);
+}
+
+.list-group-item:first-child {
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,.125);
 }
 
 .profile-img-container {
