@@ -111,7 +111,7 @@ footer {
     padding: 10px;
 }
 
-.list-group-item:hover {
+a .list-group-item:hover {
     background-color: rgb(216, 215, 215);
 }
 
